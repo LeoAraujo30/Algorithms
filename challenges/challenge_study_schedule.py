@@ -2,7 +2,7 @@ def validate_period(list):
     for tupla in list:
         if type(tupla[0]) != int or type(tupla[1]) != int:
             return False
-        
+
     return True
 
 
